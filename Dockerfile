@@ -1,5 +1,5 @@
 FROM maven:3.8.7-openjdk-17-slim as build
-WORKDIR /app
+WORKDIR /app1
 COPY . .
 RUN ./mvnw package -DskipTest
 
